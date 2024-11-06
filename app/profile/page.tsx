@@ -115,11 +115,13 @@ const ProfilePage: React.FC = () => {
           <IoMdHome className="text-white w-7 h-8" />
           <span className="text-gray-400 mt-1">Home</span>
         </button>
+        <Link href={'chat'}>
         <button className="flex flex-col items-center">
          <IoChatboxEllipses className="text-white w-7 h-8"/>
           <span className="text-gray-400 mt-1">Chat</span>
         </button>
-
+        </Link>
+        
         <Link href={'calls'}>
         <button className="flex flex-col items-center">
         <IoMdCall className="text-white w-7 h-8"/>
